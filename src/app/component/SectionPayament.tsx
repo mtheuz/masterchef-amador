@@ -56,7 +56,7 @@ function SectionPayament() {
               </div>
             </div>
             <div className="flex flex-col p-6   w-[365px] h-66 bg-yellow-primary rounded-xl space-y-4 cursor-pointer ">
-            <Image className=" h-20 w-20 text-center" src={logo} alt='logo'/>
+            <Image className=" h-20 w-20 text-center mx-auto" src={logo} alt='logo'/>
               <ul className="text-sm mt-12 text-white">
                 <li className="flex space-x-2">
                   <FaCheckCircle />
@@ -64,7 +64,7 @@ function SectionPayament() {
                 </li>
                 <li className="flex space-x-2">
                   <FaCheckCircle />
-                  <h3>Atividades práticass</h3>
+                  <h3>Atividades práticas</h3>
                 </li>
                 <li className="flex space-x-2">
                   <FaCheckCircle />
