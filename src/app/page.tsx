@@ -3,6 +3,7 @@ import Header from './component/Header'
 import SectionHome from './component/SectionHome'
 import SectionSecond from './component/SectionSecond'
 import SectionPromotion from './component/SectionPromotion'
+import SectionPayament from './component/SectionPayament'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <SectionHome/>
       <SectionSecond/>
       <SectionPromotion/>
+      <SectionPayament/>
     </main>
   )
 }

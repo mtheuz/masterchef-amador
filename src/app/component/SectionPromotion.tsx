@@ -7,7 +7,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function SectionPromotion() {
   return (
-    <section className="h-sectionHome-height w-full bg-yellow-primary " id="sectionPromotional">
+    <section className="h-sectionHome-height pb-20 w-full bg-yellow-primary " id="sectionPromotional">
       <Container className="flex flex-col h-full justify-center items-center">
         <h1 className="font-bold text-6xl mt-20 mb-10 text-white">
           Venha embarcar nessa <span className="text-black">experiência</span>!

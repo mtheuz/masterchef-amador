@@ -10,11 +10,13 @@ const config: Config = {
     extend: {
       colors:{
         'yellow-primary' : '#E78A00',
-        'brown-button' : '#6F4200'
+        'brown-button' : '#6F4200',
+        'gray-label' : '#8E8E8E'
       },
       maxWidth:{
         'grid' : '77.9375rem',
-        'widhtText': '38.5625rem'
+        'widhtText': '38.5625rem',
+        'widhtPayment' : '30rem'
       },
       height:{
         'sectionHome-height' : '48rem',
