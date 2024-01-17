@@ -80,7 +80,7 @@ function SectionHome() {
               </span>
             </p>
             <Button
-              className="bg-white text-yellow-primary"
+              className="bg-white text-yellow-primary hover:bg-black border-2 border-black"
               nome="Matricule-se"
             />
           </div>

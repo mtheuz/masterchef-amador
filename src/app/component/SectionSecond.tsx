@@ -28,7 +28,7 @@ function SectionSecond() {
           trigger: Section,
           start: "0px center",
           end: "80%",
-          markers: true,
+ 
         },
       }
     );
@@ -46,7 +46,7 @@ function SectionSecond() {
           trigger: Section,
           start: "0px center",
           end: "80%",
-          markers: true,
+  
         },
       }
     );
@@ -64,7 +64,7 @@ function SectionSecond() {
           trigger: Section,
           start: "0px center",
           end: "80%",
-          markers: true,
+
         },
       }
     );
