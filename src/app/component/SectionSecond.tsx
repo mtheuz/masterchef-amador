@@ -6,7 +6,7 @@ import cookingBro from "/public/Cooking-bro.png";
 function SectionSecond() {
   return (
     <Container>
-      <section className="w-full h-sectionHome-height">
+      <section className="w-full h-sectionHome-height" id="sectiondSecond">
         <h1 className="text-7xl text-center font-bold mt-20">
           Para quem é o curso
         </h1>

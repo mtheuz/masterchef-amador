@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors:{
-        'yellow-primary' : '#E78A00'
+        'yellow-primary' : '#E78A00',
+        'brown-button' : '#6F4200'
       },
       maxWidth:{
         'grid' : '77.9375rem',

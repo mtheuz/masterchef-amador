@@ -3,11 +3,12 @@ import React from "react";
 import Container from "./Container";
 import Image from "next/image";
 import chefBro from "/public/Chef-bro.png";
+import Button from "./Button";
 
 
 function SectionHome() {
   return (
-    <section className="h-sectionHome-height bg-yellow-primary border-t-2 border-t-white">
+    <section className="h-sectionHome-height bg-yellow-primary ">
       <Container>
         <h1 className="text-center text-white/70 font-bold text-4xl pt-24">
           Curso focado em gastronomia e cunilária
@@ -25,9 +26,7 @@ function SectionHome() {
                 Descubra o chef que existe em você.
               </span>
             </p>
-            <button className="px-16 py-4 mt-10 bg-white text-yellow-primary rounded-3xl font-bold ">
-              Inscreva-se
-            </button>
+            <Button className="bg-white text-yellow-primary" nome='Matricule-se'/>
           </div>
         </div>
       </Container>
