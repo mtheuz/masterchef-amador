@@ -15,10 +15,10 @@ function Header() {
   return (
     <header className='flex h-24 w-full bg-yellow-primary items-center '>
         <Container className='flex items-center justify-between'>
-          <div className='flex flex-row items-center'>
+          <Link href="/" className='flex flex-row items-center'>
               <Image src={logo} className='h-20 w-20' alt={'logo'}/>
               <h1 className='text-white font-bold text-base'>MasterChef Amador</h1>
-          </div>
+          </Link>
           <nav className='flex gap-10 text-white/70 '>
             {
               arrayNav.map((conteudo,index)=>(
