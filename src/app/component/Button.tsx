@@ -7,13 +7,13 @@ interface buttonProps{
 }
 
 function Button({nome, className}: buttonProps) {
-    const defaultClass = "px-16 py-4 mt-10 rounded-3xl font-bold "
+    const defaultClass = "px-16 py-4  rounded-3xl font-bold "
     const classNameFinal = twMerge(defaultClass,className)
     
   return (
-    <button className={classNameFinal}>
+    <a href='#sectionPayment' className={classNameFinal}>
     {nome}
-  </button>
+  </a>
   )
 }
 

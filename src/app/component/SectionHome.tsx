@@ -19,8 +19,8 @@ function SectionHome() {
             src={chefBro}
             alt="chef-bro"
           />
-          <div>
-            <p className="text-white text-5xl font-bold">
+          <div >
+            <p className="text-white text-5xl font-bold mb-10">
               Transforme ingredientes simples em obras-primas culinárias!
               <span className="text-black">
                 Descubra o chef que existe em você.

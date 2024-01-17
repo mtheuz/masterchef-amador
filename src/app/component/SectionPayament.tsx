@@ -6,10 +6,11 @@ import { FaPix } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 import Button from "./Button";
 import logo from "/public/logo.png";
+import Image from "next/image";
 
 function SectionPayament() {
   return (
-    <section className="h-sectionHome-height">
+    <section className="h-sectionHome-height" id='sectionPayment'>
       <Container className="flex flex-col">
         <h1 className="m-24 text-6xl font-bold text-center">
           Complete sua matrícula
@@ -54,8 +55,8 @@ function SectionPayament() {
                 <p className="text-base font-medium">Á vista de R$ 150,00</p>
               </div>
             </div>
-            <div className="flex flex-col p-6  h-34 w-[365px] h-56 bg-yellow-primary rounded-xl space-y-4 cursor-pointer ">
-                
+            <div className="flex flex-col p-6   w-[365px] h-66 bg-yellow-primary rounded-xl space-y-4 cursor-pointer ">
+            <Image className=" h-20 w-20 text-center" src={logo} alt='logo'/>
               <ul className="text-sm mt-12 text-white">
                 <li className="flex space-x-2">
                   <FaCheckCircle />
