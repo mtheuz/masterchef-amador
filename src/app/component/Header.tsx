@@ -13,7 +13,7 @@ function Header() {
   'Sobre nós',
 ]
   return (
-    <header className='flex h-20 w-full bg-yellow-primary items-center fixed  bg-opacity-95 border-b-2 border-b-white'>
+    <header className='flex h-20 w-full bg-yellow-primary items-center fixed  bg-opacity-95 border-b-2 border-b-white z-10'>
         <Container className='flex items-center justify-between'>
           <Link href="/" className='flex flex-row items-center'>
               <Image src={logo} className='h-20 w-20' alt={'logo'}/>

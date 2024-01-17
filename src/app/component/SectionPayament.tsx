@@ -22,9 +22,9 @@ function SectionPayament() {
               <div className="flex flex-row justify-between">
                 <Label
                   className="w-[290px]  focus:border-white"
-                  nome="Nome Completo"
+                  nome="E-mail"
                 />
-                <Label className="w-[290px]" nome="Nome Completo" />
+                <Label className="w-[290px]" nome="Telefone" />
               </div>
             </form>
             <div className="flex space-x-10 mt-16">
