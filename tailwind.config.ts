@@ -8,11 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors:{
+        'yellow-primary' : '#E78A00'
       },
+      maxWidth:{
+        'grid' : '77.9375rem',
+        'widhtText': '38.5625rem'
+      },
+      height:{
+        'sectionHome-height' : '48rem',
+        'heightChefBro' : '37.125rem',
+        'heightCard' : '35.375rem'
+
+      },
+      width:{
+        'widhtChefBro' : '37.125rem',
+        'widhtCard' : '25.4375rem'
+        
+      },
+    
     },
   },
   plugins: [],
