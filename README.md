@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Coffe Delivery Project" src="" width="100%">
+  <img alt="Coffe Delivery Project" src="https://raw.githubusercontent.com/mtheuz/masterchef-amador/master/public/home.png" width="100%">
 </p>
 
 ## ⛏️ Tecnologias
