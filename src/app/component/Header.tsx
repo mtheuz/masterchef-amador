@@ -19,11 +19,11 @@ function Header() {
               <Image src={logo} className='h-20 w-20' alt={'logo'}/>
               <h1 className='text-white font-bold text-base'>MasterChef Amador</h1>
           </Link>
-          <nav className='flex gap-10 text-white '>
-          <Link className='hover:text-white' href={'/'}>Início</Link>
-          <Link className='hover:text-white' href={'#sectiondSecond'}>Pra quem é o curso?</Link>
-          <Link className='hover:text-white' href={'#sectionPromotional'}>Preços promocionais</Link>
-          <Link className='hover:text-white' href={'#'}>Sobre nós</Link>
+          <nav className='flex gap-8 text-white '>
+          <Link className='px-4 py-2 rounded-full hover:bg-white/90 hover:text-yellow-primary transition ease-in-out delay-200 duration-200' href={'/'}>Início</Link>
+          <Link className='px-4 py-2 rounded-full hover:bg-white/90 hover:text-yellow-primary transition ease-in-out delay-200 duration-200' href={'#sectiondSecond'}>Pra quem é o curso?</Link>
+          <Link className='px-4 py-2 rounded-full hover:bg-white/90 hover:text-yellow-primary transition ease-in-out delay-200 duration-200' href={'#sectionPromotional'}>Preços promocionais</Link>
+          <Link className='px-4 py-2 rounded-full hover:bg-white/90 hover:text-yellow-primary transition ease-in-out delay-200 duration-200' href={'#'}>Sobre nós</Link>
          
           </nav>
         </Container>

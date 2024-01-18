@@ -30,7 +30,7 @@ function SectionPayament() {
               </div>
             </form>
             <div className="flex space-x-10 mt-16">
-              <a className="flex flex-col p-4  h-34 w-56 bg-yellow-primary rounded-xl space-y-4 cursor-pointer hover:hover:bg-brown-button">
+              <a className="flex flex-col p-4  h-34 w-56 bg-yellow-primary rounded-xl space-y-4 cursor-pointer hover:hover:bg-brown-button border-black delay-100">
                 <FaCreditCard className="mt-5" size={25} color="white" />
                 <div>
                   <h1 className="text-white font-bold text-base">
@@ -39,7 +39,7 @@ function SectionPayament() {
                   <p className="text-white  text-base">Até 3x</p>
                 </div>
               </a>
-              <a className="flex flex-col p-4  h-34 w-56 bg-yellow-primary rounded-xl space-y-4 cursor-pointer hover:hover:bg-brown-button">
+              <a className="flex flex-col p-4  h-34 w-56 bg-yellow-primary rounded-xl space-y-4 cursor-pointer hover:hover:bg-brown-button border-black delay-100">
                 <FaPix className="mt-5" size={25} color="white" />
                 <div>
                   <h1 className="text-white font-bold text-base">Pix</h1>
@@ -73,7 +73,7 @@ function SectionPayament() {
                   <h3>Certificado</h3>
                 </li>
               </ul>
-              <Button className="text-white bg-brown-button hover:bg-brown-button/70" nome="Confirmar Pagamento"/>
+              <Button className="text-white bg-brown-button hover:bg-brown-button/70 border-black delay-100" nome="Confirmar Pagamento"/>
             </div>
           </div>
         </div>

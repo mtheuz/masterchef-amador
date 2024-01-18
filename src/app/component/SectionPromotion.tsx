@@ -59,7 +59,7 @@ function SectionPromotion() {
               <li className="flex space-x-2"><FaCheckCircle /><h3>Material Didático Abrangente</h3></li>
               <li className="flex space-x-2"><FaCheckCircle /><h3>Experiências Práticas em Restaurantes</h3></li>
             </ul>
-            <Button className="bg-brown-button text-white mt-12 hover:bg-brown-button/80" nome='Matricule-se'/>
+            <Button className="bg-brown-button text-white mt-12 hover:bg-brown-button/80 border-black delay-100 hover:-translate-y-1" nome='Matricule-se'/>
           </div>
         </div>
       </Container>
